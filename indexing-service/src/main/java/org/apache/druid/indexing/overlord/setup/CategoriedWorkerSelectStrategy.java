@@ -19,6 +19,9 @@
 
 package org.apache.druid.indexing.overlord.setup;
 
+/**
+ * Extended version of WorkerSelectStrategy which is suitable for categoried strategies
+ */
 public interface CategoriedWorkerSelectStrategy extends WorkerSelectStrategy
 {
   WorkerCategorySpec getWorkerCategorySpec();

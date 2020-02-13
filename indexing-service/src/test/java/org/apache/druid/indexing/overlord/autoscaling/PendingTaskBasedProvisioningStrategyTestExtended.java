@@ -48,7 +48,9 @@ import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.atomic.AtomicReference;
 
-
+/**
+ * More test cases for PendingTaskBasedProvisioningStrategy
+ */
 public class PendingTaskBasedProvisioningStrategyTestExtended
 {
   private static final String DEFAULT_CATEGORY_1 = "default_category1";

@@ -59,6 +59,10 @@ import java.util.Set;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.stream.Collectors;
 
+/**
+ * Autoscaler provisioning strategy based on {@link AutoScaler#getCategory()} field. It selects autoscaler according
+ * to category of a submitted Task.
+ */
 @JsonTypeName("categoriedTaskBased")
 public class CategoriedProvisioningStrategy extends AbstractWorkerProvisioningStrategy
 {

@@ -27,6 +27,9 @@ import org.apache.druid.indexing.worker.config.WorkerConfig;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * This implementation is suitable for categoried provisioning strategies
+ */
 public class CategoriedWorkerBehaviorConfig implements WorkerBehaviorConfig
 {
   // Use the same category constant as for worker category to match default workers and autoscalers

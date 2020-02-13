@@ -49,7 +49,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- *
+ * More test cases for SimpleProvisioningStrategy
  */
 public class SimpleProvisioningStrategyTestExtended
 {
